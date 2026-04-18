@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bonusy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background:black;color:white;text-align:center;font-family:sans-serif;">
+
+<div id="age">
+  <h1 style="color:red;">18+</h1>
+  <p>Strona tylko dla pełnoletnich</p>
+  <button onclick="enter()" style="padding:10px 20px;">Tak, mam 18 lat</button>
+</div>
+
+<div id="main" style="display:none;">
+  <h1>🔥 Najlepsze bonusy</h1>
+
+  <div style="background:#111;margin:10px;padding:15px;">
+    <h2>300% BONUS</h2>
+    <p>+150 Free Spins</p>
+    <a href="TWÓJ_LINK"><button>Odbierz Bonus</button></a>
+  </div>
+
+  <div style="background:#111;margin:10px;padding:15px;">
+    <h2>100% BONUS</h2>
+    <p>+200 Free Spins</p>
+    <a href="TWÓJ_LINK"><button>Odbierz Bonus</button></a>
+  </div>
+
+</div>
+
+<script>
+function enter(){
+  document.getElementById("age").style.display="none";
+  document.getElementById("main").style.display="block";
+}
+</script>
+
+</body>
+</html>
